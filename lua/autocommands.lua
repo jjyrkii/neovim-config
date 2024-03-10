@@ -8,3 +8,12 @@ vim.api.nvim_create_autocmd('TextYankPost', {
     vim.highlight.on_yank()
   end,
 })
+
+-- Define autocmd for entering insert mode
+vim.cmd [[
+    augroup RelativeLineNumbersInsert
+        autocmd!
+        autocmd InsertEnter * set norelativenumber | set number
+        autocmd InsertLeave * set relativenumber | set number
+    augroup END
+]]
