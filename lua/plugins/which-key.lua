@@ -13,6 +13,10 @@ return {
       ['<leader>s'] = { name = '[S]earch', _ = 'which_key_ignore' },
       ['<leader>w'] = { name = '[W]indow', _ = 'which_key_ignore' },
       ['<leader>W'] = { name = '[W]orkspace', _ = 'which_key_ignore' },
+      ['<leader>S'] = { name = '[S]ession', _ = 'which_key_ignore' },
+      ['<leader>Sc'] = { name = '[c]urrent working directory', _ = 'which_key_ignore' },
+      ['<leader>g'] = { name = '[G]it', _ = 'which_key_ignore' },
+      ['<leader>m'] = { name = '[M]essages', _ = 'which_key_ignore' },
     }
   end,
 }
